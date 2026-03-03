@@ -19,3 +19,77 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+# **Project Documentation (docs/finance_portfolio_docs.md)**
+
+```markdown
+# Financial Data Analysis Portfolio Documentation
+
+## 1. Project Overview
+The Financial Data Analysis Portfolio is designed to analyze multiple asset classes—stocks, indices, crypto, forex, and commodities—providing actionable insights via charts and portfolio metrics. The primary goal is to **demonstrate end-to-end data analysis** suitable for professional use or internship evaluation.
+
+---
+
+## 2. Setup Instructions
+1. Clone the repository  
+2. Set up virtual environment and install dependencies  
+3. Launch Jupyter Notebook (`finance_portfolio.ipynb`)  
+4. Run cells sequentially for full execution  
+
+---
+
+## 3. Code Structure
+- `finance_portfolio.ipynb` – Main notebook for analysis  
+- `visualizations/charts/` – All PNG/HTML charts  
+- `datasets/` – Optional datasets  
+- `reports/` – Generated PDF or analysis summary  
+- `docs/` – This detailed documentation  
+
+---
+
+## 4. Visual Documentation
+- Returns Chart (interactive)  
+- Correlation Heatmap (interactive)  
+- Candlestick charts for all assets  
+
+> Screenshots can be added here after running the notebook.
+
+---
+
+## 5. Technical Details
+- **Data Structures:** Pandas DataFrames for OHLC data, returns, correlations  
+- **Algorithms:** Portfolio return & volatility, Sharpe ratio, PnL calculation  
+- **Libraries:** Pandas, Numpy, Matplotlib, Seaborn, Plotly, mplfinance, yfinance  
+
+---
+
+## 6. Testing Evidence
+- Validated with multiple assets and all outputs saved correctly  
+- Returns chart and heatmap generate expected visual patterns  
+- Candlestick charts are verified for **price, volume, and OHLC** correctness  
+
+---
+
+## 7. Usage & Step-by-Step Guide
+1. Open the notebook in Jupyter  
+2. Ensure all required libraries are installed  
+3. Run cells sequentially  
+4. Check `visualizations/charts/` for PNG/HTML outputs  
+5. Review portfolio metrics printed at the end  
+
+---
+
+## 8. Key Takeaways
+- Fully automated multi-asset portfolio analysis  
+- Charts saved with timestamps → **no overwriting**  
+- Easy to extend with custom assets, periods, or weights  
+
+---
+
+## 9. Future Improvements
+- Add **interactive user input** in notebook for personalized weights  
+- Include **forecasting models** for predictive analytics  
+- Add **dynamic dashboards** with Plotly Dash or Streamlit alternative  
